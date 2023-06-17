@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack A Mole</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/275a21d033.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="output">
+        <div id="title">Whack A Mole</div>
+        <p id="level"><b> Select Level</b></p>
+        <br>
+        <form id="form">
+            <br>
+            <input type="radio" id="easy" value="easy" name="level">
+            <label for="easy" class="label">Easy</label>
+
+            <input type="radio" id="medium" value="medium" name="level">
+            <label for="medium" class="label">Medium</label>
+
+            <input type="radio" id="hard" value="hard" name="level">
+            <label for="hard" class="label">Hard</label>
+
+
+        </form>
+        <p id="Default">Default Level: <b>Easy</b> </p>
+        <br>
+        <div id="buttons">
+            <div id="play" onclick="play()"><b>Play</b> <i class="fa-solid fa-play"></i></div>
+        </div>
+        <br>
+        <div id="bonus">
+
+        </div>
+
+
+
+
+    </div>
+    <!-- <img class="mole" src="mole.png" alt=""> 
+    <div id="reset">Reset <i class="fa-solid fa-rotate-right"></i></div>-->
+
+    <div class="game">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
