@@ -7,19 +7,19 @@ const play = () => {
     document.getElementById('Default').innerHTML=''
     let box = Array.from(document.getElementsByClassName('box'));
 
-    let pushtimer = 1500;
-    let poptimer = 1600;
+    let pushtimer = 1000;
+    let poptimer = 1100;
     if (document.getElementById('easy').checked) {
-        pushtimer = 1500;
-        poptimer = 1600;
+        pushtimer = 1000;
+        poptimer = 1100;
     }
     if (document.getElementById('medium').checked) {
-        pushtimer = 1100;
-        poptimer = 1200;
+        pushtimer = 750;
+        poptimer = 850;
     }
     if (document.getElementById('hard').checked) {
-        pushtimer = 800;
-        poptimer = 900;
+        pushtimer = 500;
+        poptimer = 600;
     }
 
     let score = 0;
